@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  kns:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.kns
+    image: qa.jfrog.io/automation/kns:0.0.20
